@@ -87,10 +87,6 @@ void SFApp::OnUpdateWorld() {
     p->GoNorth();
   }
 
-  /*for(auto c: coins) {
-    c->GoNorth();
-  }*/
-
   // Update enemy positions
   for(auto a : aliens) {
     // do something here

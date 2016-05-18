@@ -176,14 +176,14 @@ void SFAsset::HandleCollision() {
   {
     GoNorth();
   }
-   if (collide2 == 1)
-   {
-     GoEast();
-   }
-   else
-   {
-     GoWest();
-   }
+  if (collide2 == 1)
+  {
+    GoEast();
+  }
+  else
+  {
+    GoWest();
+  }
  }
 }
 
